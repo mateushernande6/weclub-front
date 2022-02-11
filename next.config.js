@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  imagens: {
+    domínios: ["localhost"],
+    // formatos: ["imagem/avif", "imagem/webp"],
+  },
+};
+
+module.exports = nextConfig;
